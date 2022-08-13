@@ -27,10 +27,10 @@
     "mod_id.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.13.3",
-    "fabric": "*",
-    "fabric-language-kotlin": ">=1.7.4+kotlin.1.6.21",
-    "minecraft": "1.18.x",
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.8.2+kotlin.1.7.10",
+    "minecraft": "~1.19",
     "java": ">=17"
   }
 }
