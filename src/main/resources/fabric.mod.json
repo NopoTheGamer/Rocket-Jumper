@@ -23,8 +23,5 @@
   },
   "mixins": [
     "rocket_jumper.mixins.json"
-  ],
-  "depends": {
-    "minecraft": "1.19.3"
-  }
+  ]
 }
