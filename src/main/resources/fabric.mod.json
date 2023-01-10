@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rocket_jumper",
+  "version": "1.0",
+  "name": "Rocket Jumper",
+  "description": "Get attached to fireworks when lighting them",
+  "authors": [
+    "nopo"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "issues": "https://example.com/",
+    "sources": "https://example.com/"
+  },
+  "icon": "assets/rocket_jumper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "com.nopo.rocket_jumper.main.RocketJumper"
+      }
+    ]
+  },
+  "mixins": [
+    "rocket_jumper.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.19.3"
+  }
+}
